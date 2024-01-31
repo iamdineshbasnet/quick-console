@@ -1,16 +1,16 @@
-# Simplified Logger
+# QuickConsole
 
 A lightweight and easy-to-use logging utility for Node.js.
 
 ## Installation
 
 ```bash
-npm install simplified-logger
+npm install quick-console
 ```
 
 ## Usage
 ```bash
-const createLogger = require('simplified-logger');
+const createLogger = require('quick-console');
 
 // Create a logger instance
 const table = createLogger("table");

@@ -1,14 +1,14 @@
 {
-  "name": "simplified-logger",
+  "name": "QuickConsole",
   "version": "1.0.0",
-  "description": "The Simplified Logger is a lightweight and easy-to-use logging utility for Node.js applications. This minimalist logging package empowers developers to add color and style to their console output effortlessly. With a focus on simplicity and flexibility, this logger allows you to customize text color, background color, and other styling options, enhancing the readability of your logs.",
+  "description": "The QuickConsole is a lightweight and easy-to-use logging utility for Node.js applications. This minimalist logging package empowers developers to add color and style to their console output effortlessly. With a focus on simplicity and flexibility, this logger allows you to customize text color, background color, and other styling options, enhancing the readability of your logs.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamdineshbasnet/simplified-logger.git"
+    "url": "git+https://github.com/iamdineshbasnet/quick-console.git"
   },
   "keywords": [
     "logger",
@@ -23,7 +23,7 @@
   "author": "Dinesh Basnet",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iamdineshbasnet/simplified-logger/issues"
+    "url": "https://github.com/iamdineshbasnet/quick-console/issues"
   },
-  "homepage": "https://github.com/iamdineshbasnet/simplified-logger#readme"
+  "homepage": "https://github.com/iamdineshbasnet/quick-console#readme"
 }

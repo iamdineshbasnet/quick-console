@@ -1,4 +1,4 @@
-# QuickConsole
+# SimpleLogr
 
 A lightweight and easy-to-use logging utility for Node.js.
 

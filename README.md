@@ -1,25 +1,99 @@
-# SimpleLogr
+
+## SimpleLogr
+
+  
 
 A lightweight and easy-to-use logging utility for Node.js.
 
+  
+
 ## Installation
 
+  
+
 ```bash
-npm install quick-console
+
+npm install simple-logr
+
 ```
+
+  
 
 ## Usage
+
+  
+
 ```bash
-const createLogger = require('quick-console');
 
-// Create a logger instance
-const table = createLogger("table");
+const Logr = require('simple-logr');
 
-// Log a message with color and background styling
-table([{id: 1, name: "Hello"}, {id: 2, name: "world"}]);
+const logr = new Logr();
+
+logr.success().bgWarning().log('This is a success message with a warning background.');
+
 ```
 
-## Features
-- Simple API for binding console methods.
-- Customizable text color and background styling.
+  
 
+## Features
+
+  
+
+- Simple API for styling console output
+
+- Supports text color and background styling
+
+## Supported Colors
+
+- primary
+
+- secondary
+
+- error
+
+- info
+
+- success
+
+- light
+
+- dark
+
+- warning
+
+  
+
+## Examples
+
+  
+
+```bash
+
+const Logr = require('simple-logr');
+
+const logr = new Logr();  
+
+
+// Log a success message with a bold style and a green color
+
+logr.success().bold().log('Operation successful!');
+
+  
+
+// Log an error message with a red color and an underline
+
+logr.error().underline().log('An error occurred.');
+
+  
+
+// Log an informational message with a cyan color and a background color
+
+logr.info().bgBlue().log('Information: Remember to update.');
+
+  
+
+// ... and more
+
+  
+
+```

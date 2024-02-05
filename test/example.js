@@ -2,13 +2,6 @@ const Logr = require('./../src/index');
 
 const logr = new Logr();
 
-logr
-  .bold()
-  .italic()
-  .underline()
-  .color('blue')
-  .bgColor('bgYellow')
-  .log('Hello, Logr!');
 
 logr
   .success()

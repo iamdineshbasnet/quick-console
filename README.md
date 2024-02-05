@@ -88,7 +88,7 @@ logr.error().underline().log('An error occurred.');
 
 // Log an informational message with a cyan color and a background color
 
-logr.info().bgBlue().log('Information: Remember to update.');
+logr.info().log('Information: Remember to update.');
 
   
 

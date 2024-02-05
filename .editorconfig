@@ -1,0 +1,32 @@
+root = true
+
+# Default settings for all files
+[*]
+# Use tabs for indentation
+indent_style = tab
+# Use LF (Unix-style) line endings
+end_of_line = lf
+charset = utf-8
+# Trim trailing whitespaces
+trim_trailing_whitespace = true
+# an empty newline at the end of the file
+insert_final_newline = true
+
+
+# JavaScript files
+[*.js]
+# Indentation style: 2 spaces
+indent_style = space
+indent_size = 2
+
+# JSON files
+[*.json]
+# Indentation style: 2 spaces
+indent_style = space
+indent_size = 2
+
+# Markdown files
+[*.md]
+# Indentation style: 2 spaces
+indent_style = space
+indent_size = 2

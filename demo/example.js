@@ -1,4 +1,4 @@
-const Logr = require('./../src/index');
+const Logr = require('../src/index');
 
 const logr = new Logr();
 

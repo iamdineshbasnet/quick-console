@@ -14,7 +14,7 @@ module.exports = class Logr {
       blue: '\x1b[34m',
       cyan: '\x1b[36m',
       white: '\x1b[38m',
-      grey: '\x1b[38;5;192m',
+      grey: '\x1b[90m',
       // BACKGROUND ANSI CODE
       bgReset: '\x1b[49m',
       bgBlack: '\x1b[40m',
@@ -24,7 +24,7 @@ module.exports = class Logr {
       bgBlue: '\x1b[44m',
       bgCyan: '\x1b[46m',
       bgWhite: '\x1b[47m',
-      bgGrey: '\x1b[48;5;192m',
+      bgGrey: '\x1b[100m',
     };
     this.currentStyles = [];
   }

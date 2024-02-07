@@ -4,7 +4,8 @@
   "description": "The SimpleLogr is a lightweight and easy-to-use logging utility for Node.js applications. This minimalist logging package empowers developers to add color and style to their console output effortlessly. With a focus on simplicity and flexibility, this logger allows you to customize text color, background color, and other styling options, enhancing the readability of your logs.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "uglifyjs src/index.js -o dist/simple-logr.min.js -c"
   },
   "repository": {
     "type": "git",

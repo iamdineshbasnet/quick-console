@@ -97,3 +97,19 @@ logr.info().log('Information: Remember to update.');
   
 
 ```
+
+
+
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+
+## License
+Simple-logr is licensed under the ISC License.
+
+  
+  
+
+NOTE: Feel free to customize this template and include any additional details or usage instructions that you think would be helpful for users.

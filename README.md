@@ -61,6 +61,15 @@ logr.success().bgWarning().log('This is a success message with a warning backgro
 
 - warning
 
+## Supported Styles
+- bold
+
+- underline
+
+- italic
+
+- strikethrough
+
   
 
 ## Examples

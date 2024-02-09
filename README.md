@@ -45,21 +45,21 @@ logr.success().bgWarning().log('This is a success message with a warning backgro
 
 ## Supported Colors
 
-- primary
+- primary <img src="https://i.imgur.com/veAyZOv.png" height="10" width="50" />
 
-- secondary
+- secondary <img src="https://i.imgur.com/G3YreLD.png" height="10" width="50" />
 
-- error
+- error <img src="https://i.imgur.com/UzKoiPs.png" height="10" width="50" />
 
-- info
+- info <img src="https://i.imgur.com/r67FkfB.png" height="10" width="50" />
 
-- success
+- success <img src="https://i.imgur.com/1e9JmeA.png" height="10" width="50" />
 
-- light
+- light <img src="https://i.imgur.com/VpxN8Ze.png" height="10" width="50" />
 
-- dark
+- dark <img src="https://i.imgur.com/EMX4o2U.png" height="10" width="50" />
 
-- warning
+- warning <img src="https://i.imgur.com/k1ys5jI.png" height="10" width="50" />
 
 ## Supported Styles
 - bold

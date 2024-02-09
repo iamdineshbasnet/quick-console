@@ -5,6 +5,7 @@ const logr = new Logr();
 logr
   .success()
   .bgWarning()
+  .strikethrough()
   .log("This is a success message with a warning background.");
 
 logr

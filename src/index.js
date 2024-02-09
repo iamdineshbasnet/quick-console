@@ -6,6 +6,7 @@ module.exports = class Logr {
       bold: '\x1b[1m',
       italic: '\x1b[3m',
       underline: '\x1b[4m',
+      strikethrough: '\x1b[9m',
       // FOREGROUND ANSI CODE
       black: '\x1b[30m',
       red: '\x1b[31m',
@@ -43,6 +44,11 @@ module.exports = class Logr {
   underline() {
     this.currentStyles.push(this.styles.underline);
     return this;
+  }
+
+  strikethrough(){
+    this.currentStyles.push(this.styles.strikethrough)
+    return this
   }
 
   color(color) {

@@ -49,7 +49,7 @@ logr.success().bgWarning().log('This is a success message with a warning backgro
 
 - secondary <img src="https://i.imgur.com/G3YreLD.png" height="10" width="50" />
 
-- error <img src="https://i.imgur.com/UzKoiPs.png" height="10" width="50" />
+- error or danger or destructive <img src="https://i.imgur.com/UzKoiPs.png" height="10" width="50" />
 
 - info <img src="https://i.imgur.com/r67FkfB.png" height="10" width="50" />
 
